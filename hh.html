@@ -1,0 +1,22 @@
+<head> 
+ <script language="javascript">
+   function check() {
+    if(!document.form1.txt1.value || !document.form1.txt2.value) {
+    alert("data missing");
+    return false; }
+    else
+    return true;
+     }
+
+
+  </script>
+</head>
+
+<body>
+ <form name="form1" action="2.php" method="post" onSubmit="return check();">
+ <input type="text" name="txt1"><br>
+ <input type="text" name="txt2"><br>
+ <input type="submit" value="Submit">
+ </form>
+</body>
+

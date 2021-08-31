@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="ar" direction="rtl">
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8"> 
+        <title>الغابة - رابطة أبناء الغابة</title>
+        <meta name="generator" content="Bootply" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <link href="bootstrap/css/bootstrap.min.rtl.css" rel="stylesheet">
+        <!--<link href="bootstrap/css/bootstrap-glyphicons.css" type="text/css" rel="stylesheet">!-->
+        <!--[if lt IE 9]>
+          <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+		<link href="bootstrap/css/font-awesome.min.css" type="text/css" rel="stylesheet">
+
+
+
+
+
+
+
+
+
+        <!-- CSS code from Bootply.com editor -->
+        <style type="text/css">
+            /* override bootstrap styles */
+@import url(http://fonts.googleapis.com/earlyaccess/droidarabicnaskh.css);
+
+.navbar-form input, .form-inline input {
+  width:auto;
+}
+
+body {
+  padding-top:50px;
+  color:#646464;
+  background: #E9E9E9;
+}
+
+html > * {
+	font-family: 'Droid Arabic Naskh', serif;
+}
+
+h1,h2,h3,.highlight,#masthead h4, .navbar-nav > li > a, .navbar-brand, .dropdown-header {
+  margin-top: 0pt;
+  font-family:'Droid Arabic Kufi', serif;
+}
+
+footer {
+
+  margin-top:40px;
+  padding-top:40px;
+  padding-bottom:40px;
+  background:#07CB8A  url('bootstrap/img/pixcel.png');
+ 
+}
+
+
+#masthead {
+  min-height:199px;
+  background: #004405 url('bootstrap/img/shadi_bg.jpg') 80%;
+  color:#aaaacc;
+}
+
+#masthead h1 {
+  font-size: 55px;
+  line-height: 1;
+  color:#fefeff;
+  margin-top:50px;
+}
+
+#masthead .well {
+  margin-top:31px;
+  background-color:#11664F;
+  border-color:#000022;
+  color:#efefff;
+  min-height:127px;
+}
+
+#topPanel {
+  padding-top:0px;
+  padding-left:22px;
+  padding-right:22px;
+}
+#topPanel .panel-body {
+  padding-top:0px;
+}
+
+.navbar.affix {
+  position:fixed;
+  top:0;
+  width:100%;
+}
+
+.top-spacer {
+  background-color:#ffffff;
+  height:40px;
+}
+
+a,a:hover {
+  color:#223344;
+  text-decoration:none;
+}
+
+.icon-bar {
+  background-color:#fff;
+}
+
+@media screen and (min-width: 768px) {
+  #masthead h1 {
+    font-size: 80px;
+  }
+}
+
+.navbar-bright {
+  background: #09AD75 url('bootstrap/img/pixcel.png');
+  color: #fff;
+  margin-bottom: 0;
+  border-width: 0;
+  border-bottom: 3pt solid #50CBA1;
+  box-shadow: 0px 1px 20px rgba(0, 0, 0, .9);
+  -webkit-box-shadow: 0px 1px 20px rgba(0, 0, 0, .9);
+  -moz-box-shadow: 0px 1px 20px rgba(0, 0, 0, .9);
+}
+
+.navbar-bright .navbar-brand {
+	position: relative;
+	right: -10pt;
+	top: -10pt;
+	border-radius: 50pt;
+	height: 90pt;
+	background: rgba(255, 255, 255, 1);
+	border-bottom: 3pt solid #50CBA1;
+	box-shadow: 0px 3px 17px rgba(0, 0, 0, .9);
+	-webkit-box-shadow: 0px 3px 17px rgba(0, 0, 0, .9);
+	-moz-box-shadow: 0px 3px 17px rgba(0, 0, 0, .9);
+}
+	.navbar-bright .navbar-brand:hover {
+		background: rgba(255, 255, 255, 1);
+		box-shadow: 0px 3px 17px rgba(80, 203, 161, .9);
+		-webkit-box-shadow: 0px 3px 17px rgba(80, 203, 161, .9);
+		-moz-box-shadow: 0px 3px 17px rgba(80, 203, 161, .9);
+	}
+	
+.navbar-bright a, .navbar-bright .navbar-brand, #masthead h4 {
+  color:#fff;
+  font-size:14px;
+  text-transform: uppercase;
+  letter-spacing:.08em;
+}
+
+.dropdown-menu {
+  min-width: 250px;
+}
+
+.caret {
+  color:#fff;
+}
+
+.navbar-toggle {
+  color:#fff;
+  border-width:0;
+}
+
+.navbar-toggle:hover {
+  background-color:#50CBA1;
+}
+
+.panel {
+  border-color:transparent;
+  border-radius:0;
+}
+
+.thumbnail {
+  margin-bottom:8px;
+}
+
+.img-container {
+  overflow:hidden;
+  height:170px;
+}
+
+.img-container img {
+  min-width:280px;
+  min-height:180px;
+  max-width:380px;
+  max-height:280px;
+}
+
+.txt-container {
+  overflow:hidden;
+  height:100px;
+}
+
+.panel .lead {
+  overflow:hidden;
+  height:90px;
+}
+
+.label-float{
+  margin:0 auto;
+  position: absolute;
+  top: 0;
+  z-index: 1;
+  width:100%;
+  opacity:.9;
+  padding:6px;
+  color:#fff;
+}
+    
+.btn-twitter {background-color:#4099FF;color:#fff;}
+.btn-facebook {background-color:#3B5998;color:#fff;}
+.btn-google-plus {background-color:#d34836;color:#fff;}
+
+.btn-twitter:hover {background-color:#3088FF;color:#62BBFF;}
+.btn-facebook:hover {background-color:#2A4998;color:#4C6BBA;}
+.btn-google-plus:hover {background-color:#C23836;color:#E45A58;}
+
+
+.navbar-bright li a:hover, .navbar-bright li.dropdown a:hover, .navbar-bright li.open > a {
+	color: #fff;
+  background-color:#50CBA1;
+}
+        </style>
+    </head>
+    
+    <!-- HTML code from Bootply.com editor -->
+    
+    <body  >
+        
+        <header class="navbar navbar-bright navbar-fixed-top" role="banner" style="max-height: 20pt;">
+  <div class="container">
+    <div class="navbar-header">
+      <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="sr-only">إضغط للتصفح</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a href="index.html" class="navbar-brand">
+		<img src="bootstrap/img/logo_a.png" style="width: auto;height: 90%;" />
+      </a>
+    </div>
+    <nav class="collapse navbar-collapse" role="navigation">
+      <ul class="nav navbar-nav">
+        <li class="dropdown">
+          <a href="section_with_content.html" data-toggle="dropdown"><i class="icon icon-leaf"></i> الزراعة</a>
+          <ul class="dropdown-menu">
+            <li class="dropdown-header">الماضي, الحاضر والمستقبل</li>
+            <li><a href="section_with_content.html">نبذة تأريخية</a></li>
+            <li><a href="section_with_content.html">الخطة الحالية</a></li>
+            <li><a href="section_with_content.html">الخطة المستقبلية</a></li>
+            <li class="divider"></li>
+            <li class="dropdown-header">مشاريع</li>
+            <li><a href="section_with_content.html">مشروع الغابة الزراعي</a></li>
+            <li><a href="section_with_content.html">مشروع الكندوة</a></li>
+            <li><a href="section_with_content.html">المشروع القومي</a></li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a href="section_with_content.html" data-toggle="dropdown"><i class="icon icon-child"></i> الصحة</a>
+          <ul class="dropdown-menu">
+            <li class="dropdown-header">الماضي, الحاضر والمستقبل</li>
+            <li><a href="section_with_content.html">نبذة تأريخية</a></li>
+            <li><a href="section_with_content.html">الخطة الحالية</a></li>
+            <li><a href="section_with_content.html">الخطة المستقبلية</a></li>
+            <li class="divider"></li>
+            <li class="dropdown-header">مشاريع</li>
+            <li><a href="section_with_content.html">مستشفى الغابة</a></li>
+            <li><a href="section_with_content.html">المراكز الصحية</a></li>
+            <li><a href="section_with_content.html">وحدة الصحة</a></li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a href="section_with_content.html" data-toggle="dropdown"><i class="icon icon-graduation-cap"></i> التعليم</a>
+          <ul class="dropdown-menu">
+            <li class="dropdown-header">الماضي, الحاضر والمستقبل</li>
+            <li><a href="section_with_content.html">نبذة تأريخية</a></li>
+            <li><a href="section_with_content.html">الخطة الحالية</a></li>
+            <li><a href="section_with_content.html">الخطة المستقبلية</a></li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a href="section_with_content.html" data-toggle="dropdown">الرياضة</a>
+          <ul class="dropdown-menu">
+            <li class="dropdown-header">الماضي, الحاضر والمستقبل</li>
+            <li><a href="section_with_content.html">نبذة تأريخية</a></li>
+            <li><a href="section_with_content.html">الخطة الحالية</a></li>
+            <li><a href="section_with_content.html">الخطة المستقبلية</a></li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a href="section_with_content.html" data-toggle="dropdown"><i class="icon icon-bar-chart"></i> السجل الإحصائي</a>
+          <ul class="dropdown-menu">
+            <li><a href="section_with_content.html">إستمارة التسجيل</a></li>
+            <li class="divider"></li>
+            <li class="dropdown-header">دراسات ونتائج</li>
+            <li><a href="section_with_content.html">من حيث الفئة</a></li>
+            <li><a href="section_with_content.html">من حيث العمر</a></li>
+            <li><a href="section_with_content.html">من حيث المستوى التعليمي</a></li>
+            <li><a href="section_with_content.html">من حيث السكن</a></li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a href="#" data-toggle="dropdown"><i class="icon icon-book"></i>
+			مكتبة الوثائق
+		  </a>
+          <ul class="dropdown-menu">
+            <li class="dropdown-header">وسائط مرئية وسمعية</li>
+            <li><a href="#"><i class="icon icon-picture"></i>
+				معرض الصور
+				</a></li>
+            <li><a href="#"><i class="icon icon-youtube-play"></i>
+				معرض الفيديوهات
+				</a></li>
+            <li><a href="#"><i class="icon icon-play"></i>
+				تسجيلات
+				</a></li>
+          </ul>
+        </li>
+      </ul>
+      <ul class="nav navbar-right navbar-nav" id="search">
+        <li class="hidden-xs">
+          <a class="search-toggle"><i class="glyphicon glyphicon-search"></i></a>
+          <div class="search-box" style="padding:5pt;display: none;">
+            <form class="form-inline">
+              <a class="close" style="position: relative;right: -20pt;top: 5pt;color: #010101"><i class="glyphicon glyphicon-remove"></i></a><input type="text" class="form-control" placeholder="بحث">
+            </form>
+          </div>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<div id="masthead">
+	
+</div>
+
+
+<div class="container" style="margin-top: -100pt;">
+	<div class="breadcrumbs" style="border-radius: 10pt 10pt 0pt 0pt;background: #19B470;color: #fff;height: auto;padding-top: 6pt;border-bottom: 3pt solid #2DAC71;">
+		<ol class="breadcrumb" style="background: none;padding: 6pt;margin: 0pt;color: #fff;">
+			<a href="index.html">
+				<i class="icon icon-home"></i> 
+				الرئيسية
+			</a>
+			
+			<i class="icon icon-arrow-left"></i>
+			
+			<a href="section_with_content.html">الزراعة</a>
+			
+			<i class="icon icon-arrow-left"></i>
+			
+			<span style="color: #fff" class="active">نبذة تأريخية</span>
+		</ol>
+	</div>  
+  <div class="row">
+    
+    <div class="col-md-12"> 
+      
+      <div class="panel">
+        <div class="panel-body">
+          
+          
+          
+          <!--/stories-->
+          <div class="row">    
+            <br>
+            <div class="col-md-2 col-sm-3 text-center">
+              <a class="story-title" href="single_post.html"><img alt="Test Alt" src="https://s.yimg.com/bt/api/res/1.2/dvIHbhDOe8PiW5MyG7AXaA--/YXBwaWQ9eW5ld3M7Y2g9OTU7Y3I9MTtjdz0xNDg7ZHg9MDtkeT0wO2ZpPXVsY3JvcDtoPTEyMjtxPTg1O3c9MTkw/http://media.zenfs.com/ar_XA/News/ahramgate.xa/2014-635360826638799256-879_thumb150x95.jpg" style="width:100px;height:100px" class="img-circle"></a>
+            </div>
+            <div class="col-md-10 col-sm-9">
+              <a class="story-title" href="single_post.html"><h3>اليوم.. انتهاء تصويت المصريين بالخارج في انتخابات الرئاسة</h3></a>
+              <div class="row">
+                <div class="col-xs-9">
+				  <p>
+					  ينتهى اليوم الاثنين تصويت المصريين بالخارج في انتخابات الرئاسة، وهو اليوم الخامس للتصويت وفق قرار لجنة الانتخابات الرئاسية التي مددت فترة التصويت لمدة يوم واحد، حيث تغلق صناديق الاقتراع في التاسعة مساء حسب التوقيت المحلي لكل دولة.
+				  </p>
+                  <h4><span class="label label-default">أخبار</span></h4><h4>
+                  <small style="font-family:courier,'new courier';" class="text-muted">قبل ساعتين  • <a href="section_with_content.html" class="text-muted">قراءة المزيد</a></small>
+                  </h4></div>
+                <div class="col-xs-3"></div>
+              </div>
+            </div>
+          </div>
+          <hr>
+          
+          <div class="row">    
+            <br>
+            <div class="col-md-2 col-sm-3 text-center">
+              <a class="story-title" href="single_post.html"><img alt="14 Useful Sites for Designers" src="http://site2img-api.herokuapp.com/1078600777" style="width:100px;height:100px" class="img-circle"></a>
+            </div>
+            <div class="col-md-10 col-sm-9">
+              <a class="story-title" href="single_post.html"><h3>مثال لخبر في تصنيف آخر</h3></a>
+              <div class="row">
+                <div class="col-xs-9">
+					<p>
+						هل أنت مستعد لخوض غمار التجربة؟ هل أنت مستعد للعمل؟ هذا مجرد نص تخيلي ليكون محل النص الحقيقي, مجرد إختبار فقط لاغير.
+					</p>
+                  <h4><span class="label label-default">فن</span></h4><h4>
+                  <small style="font-family:courier,'new courier';" class="text-muted">منذ الأمس • <a href="section_with_content.html" class="text-muted">قراءة المزيد</a></small>
+                  </h4></div>
+                <div class="col-xs-3"></div>
+              </div>
+              
+            </div>
+          </div>
+          <hr>
+                  
+          <div class="row">    
+            <br>
+            <div class="col-md-2 col-sm-3 text-center">
+              <a class="story-title" href="http://www.techvisually.com/p/AjwaicZ90d"><img alt="Measuring Your Link Building with Google Analytics" src="http://site2img-api.herokuapp.com/1078043535" style="width:100px;height:100px" class="img-circle"></a>
+            </div>
+            <div class="col-md-10 col-sm-9">
+              <a class="story-title" href="single_post.html"><h3>مثال لخبر في تصنيف</h3></a>
+              <div class="row">
+                <div class="col-xs-9">
+					<p>
+						هذا هو الخبر الثالث في سلسلة الأخبار التجريبية, وينتمي لتصنيف مغاير للتصنيف السابق, يمكن أن يتم حذفه أو تعديله في وقت لاحق.
+					</p>
+                  <h4><span class="label label-default">فن</span></h4><h4>
+                  <small style="font-family:courier,'new courier';" class="text-muted">منذ يومين • <a href="section_with_content.html" class="text-muted">قراءة المزيد</a></small>
+                  </h4></div>
+                <div class="col-xs-3"></div>
+              </div>
+            </div>
+          </div>
+          <hr>
+
+          <div class="row">    
+            <br>
+            <div class="col-md-2 col-sm-3 text-center">
+              <a class="story-title" href="single_post.html"><img alt="Dramatically Raise the Value of Any Piece of Content with These 27 Tactics" src="http://site2img-api.herokuapp.com/1077116470" style="width:100px;height:100px" class="img-circle"></a>
+            </div>
+            <div class="col-md-10 col-sm-9">
+              <a class="story-title" href="single_post.html"><h3>مثال لخبر أخير في تصنيف آخر</h3></a>
+              <div class="row">
+                <div class="col-xs-9">
+					<p>
+						إستخرج الأخطاء اللغوية في هذه الجملة: '<i>وبدأت عملية الاقتراع في الخارج، الخميس الماضي، وذلك من التاسعة صباحاً حتى التاسعة مساءً، حسب التوقيت المحلي لكل دولة من الدول التي تتواجد بها المقار الانتخابية، وذلك بـ141 مقراً انتخابياً في 124 دولة، حسب بيان لوزارة الخارجية.</i>'
+					</p>
+                  <h4><span class="label label-default">أدب</span></h4><h4>
+                  <small style="font-family:courier,'new courier';" class="text-muted">قبل حوالي أسبوع • <a href="section_with_content.html" class="text-muted">قراءة المزيد</a></small>
+                  </h4></div>
+                <div class="col-xs-3"></div>
+              </div>
+            </div>
+          </div>
+          <hr>
+          <!--/stories-->
+          
+          
+          <a href="section_with_content.html" class="btn btn-primary pull-right btnNext">المزيد <i class="glyphicon glyphicon-chevron-left"></i></a>
+        
+          
+        </div>
+      </div>
+                                                                                       
+	                                                
+                                                      
+   	</div><!--/col-12-->
+  </div>
+</div>
+                                                
+
+<div class="container" id="footer">
+  <div class="row">
+    <div class="col col-sm-12">
+      
+      <h1>إتبعنا</h1>
+      <div class="btn-group">
+       <a class="btn btn-twitter btn-lg" href="section_with_content.html"><i class="icon-twitter icon-large"></i> تويتر</a>
+	   <a class="btn btn-facebook btn-lg" href="section_with_content.html"><i class="icon-facebook icon-large"></i> فيسبوك</a>
+	   <a class="btn btn-google-plus btn-lg" href="section_with_content.html"><i class="icon-google-plus icon-large"></i> قوقل+</a>
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+		<center>
+			<img src="bootstrap/img/logo_a.png" height="120pt" />
+			<br /><br />
+			<p> جميع الحقوق محفوظة   &copy; ALGHABA.COM</a></p>      
+		</center>
+      </div>
+    </div>
+  </div>
+</footer>
+        
+        <script type='text/javascript' src="bootstrap/js/jquery.min.js"></script>
+
+
+        <script type='text/javascript' src="bootstrap/js/bootstrap.min.js"></script>
+
+
+
+
+
+        
+        <!-- JavaScript jQuery code from Bootply.com editor -->
+        
+        <script type='text/javascript'>
+        $(document).ready(function() {
+			$(".dropdown").mouseover(function() {
+				$(this).children(".dropdown-menu").dropdown('toggle');
+			}).mouseout(function() {
+				$(this).children(".dropdown-menu").dropdown('toggle');
+			});
+			
+			$("#search .search-toggle").click(function() {
+				$("#search .search-toggle").hide();
+				$("#search .search-box").fadeIn(200);
+				$("#search .search-box input").focus();
+			});
+			
+			$("#search .search-box").focusout(function() {
+				if($("#search .search-box input").val().length > 0) return;
+				$("#search .search-box").hide();
+				$("#search .search-toggle").fadeIn(200);
+			});
+			
+			$("#search .search-box .close").click(function() {
+				$("#search .search-box input").val("");
+				$("#search .search-box").hide();
+				$("#search .search-toggle").fadeIn(200);
+			});
+		});
+		</script>
+        
+    </body>
+</html>
